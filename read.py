@@ -34,5 +34,8 @@ for d in data:
     if 'good' in d:
         good.append(d)
 
+#精簡寫法
+#good=[d for d in data if 'good' in d]
+
 print('一共有',len(good),'留言提到good')
 print(good[0])
